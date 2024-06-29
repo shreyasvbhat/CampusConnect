@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Navbar = () => {
     return (
-        <div className="px-10 py-2 sticky top-0 flex items-center justify-between shadow-md bg-gray-100">
+        <div className="px-10 py-2 sticky top-0 z-10 flex items-center justify-between shadow-md bg-gray-100 bg-opacity-80 backdrop-blur-sm">
             <div className='flex gap-[60px] items-center'>
                 <div id="logo" className='text-2xl font-bold select-none tracking-tighter'>
                     CampusConnect
