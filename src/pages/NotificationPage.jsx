@@ -13,7 +13,7 @@ const NotificationCard = ({ bgColor, icon, heading, content, text }) => (
     <div className={`border-2 border-black ${bgColor} outline-none rounded-xl mb-6 p-4 shadow-md`}>
         <div className="flex items-center mb-4">
             <div className="mr-4">
-                {icon}t 
+                {icon}
             </div>
             <div className="flex flex-col">
                 <div className="flex items-center justify-between">
