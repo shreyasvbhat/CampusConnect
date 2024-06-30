@@ -1,7 +1,9 @@
 import React from 'react'
 import { FaCompass, FaGlobe } from 'react-icons/fa'
-import PageInfo from './PageInfo'
+import PageInfo from '../components/PageInfo'
 import { FaGauge } from 'react-icons/fa6'
+import FooterCard from '../components/FooterCard'
+import DiscoverSection from '../components/DiscoverSection'
 
 const LandingPage = () => {
     const props = [
@@ -35,6 +37,8 @@ const LandingPage = () => {
 			<PageInfo pageProps={props[1]} />
 			<hr className='border-2 border-gray-200' />
 			<PageInfo pageProps={props[2]} />
+			<hr className='border-2 border-gray-200' />
+			<DiscoverSection />
         </>
     )
 }

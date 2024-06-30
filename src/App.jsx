@@ -1,9 +1,10 @@
 import './App.css'
-import LandingPage from './components/LandingPage'
+import LandingPage from './pages/LandingPage'
 import NavBar from './components/NavBar'
 import AboutUs from './components/AboutUs'
 import LoginPage from './pages/LoginPage'
 import SignUpPage from './pages/SignUpPage'
+
 
 function App() {
 	return (
