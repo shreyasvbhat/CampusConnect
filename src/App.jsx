@@ -1,7 +1,5 @@
-import './App.css'
 import LandingPage from './pages/LandingPage'
 import NavBar from './components/NavBar'
-import AboutUs from './components/AboutUs'
 import LoginPage from './pages/LoginPage'
 import SignUpPage from './pages/SignUpPage'
 
@@ -9,7 +7,7 @@ import SignUpPage from './pages/SignUpPage'
 function App() {
 	return (
 	//<LoginPage></LoginPage>
-	<SignUpPage></SignUpPage>
+	//<SignUpPage></SignUpPage>
 	// <Route>
 	// 	<Route path="/" element={<LoginPage/>}/>
 	// </Route>
@@ -17,6 +15,10 @@ function App() {
 		// 	<NavBar />
 		// 	<AboutUs />
 		// </>
+	<>
+	<NavBar/>
+	<LandingPage/>
+	</>
 	)
 }
 

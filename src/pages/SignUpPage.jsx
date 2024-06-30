@@ -32,7 +32,7 @@ const SignUpPage = () => {
                         <button className="px-4 py-2 rounded-md bg-teal-500">Login</button>
                         <button className="px-5 py-2 rounded-md bg-teal-500">Sign Up</button>
                     </div>
-                    <button className="px-2 py-2 rounded-md text-red-700 hover:underline">Forgot Password?</button>
+                    
                 </form>
             </div>
         </div>
