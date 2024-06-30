@@ -13,7 +13,7 @@ const NotificationCard = ({ bgColor, icon, heading, content, text }) => (
     <div className={`border-2 border-black ${bgColor} outline-none rounded-xl mb-6 p-4 shadow-md`}>
         <div className="flex items-center mb-4">
             <div className="mr-4">
-                {icon}
+                {icon}t 
             </div>
             <div className="flex flex-col">
                 <div className="flex items-center justify-between">
@@ -21,7 +21,7 @@ const NotificationCard = ({ bgColor, icon, heading, content, text }) => (
                         <h1 className="text-xl font-bold">{heading}</h1>
                     </div>
                     <div className="ml-2">
-                        <p className="text-sm text-black font-bold">{content}</p>
+                        <p className="text-sm text-black font-medium">{content}</p>
                     </div>
                 </div>
             </div>
