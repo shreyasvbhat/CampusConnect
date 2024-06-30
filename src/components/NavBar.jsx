@@ -12,11 +12,10 @@ const Navbar = () => {
                     CampusConnect
                 </div>
                 <div className='flex gap-8 text-[1.05rem] font-semibold items-center mt-1'>
-                    <button onClick={() => {
-                        navigate('/');
-                    }} className='cursor-pointer hover:text-blue-600'>Home</button>
-                    <button className='cursor-pointer hover:text-blue-600'>About Us</button>
-                    <button className='cursor-pointer hover:text-blue-600'>Contact</button>
+                    <button className='cursor-pointer hover:text-teal-600'>Home</button>
+                    <button className='cursor-pointer hover:text-teal-600'>About Us</button>
+                    <button className='cursor-pointer hover:text-teal-600'>Contact</button>
+                    <button className='cursor-pointer hover:text-teal-600'>Notifications</button>
                 </div>
             </div>
             <div className='flex gap-4'>
