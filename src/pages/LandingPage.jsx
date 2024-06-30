@@ -4,6 +4,7 @@ import PageInfo from '../components/PageInfo'
 import { FaGauge } from 'react-icons/fa6'
 import FooterCard from '../components/FooterCard'
 import DiscoverSection from '../components/DiscoverSection'
+import Footer from '../components/Footer'
 
 const LandingPage = () => {
     const props = [
@@ -39,6 +40,8 @@ const LandingPage = () => {
 			<PageInfo pageProps={props[2]} />
 			<hr className='border-2 border-gray-200' />
 			<DiscoverSection />
+			<hr className='border-2 border-gray-200' />
+			<Footer />
         </>
     )
 }
